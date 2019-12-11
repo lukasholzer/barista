@@ -635,6 +635,9 @@
             "tsConfig": "components/tsconfig.lib.json",
             "project": "components/ng-package.json"
           }
+        },
+        "packager": {
+          "builder": "@dynatrace/barista-builders:packager"
         }
       }
     },
